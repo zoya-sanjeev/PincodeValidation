@@ -5,7 +5,7 @@ import java.util.regex.*;
 public class PincodeValidation {
 	
 	public static boolean pincodeValidation(String pincode) {
-		String pincodeRegex = "^[0-9]{6}$";
+		String pincodeRegex = "^[0-9]{3}\\s{0,1}[0-9]{3}$";
 		return Pattern.matches(pincodeRegex, pincode);
 	}
 
