@@ -17,6 +17,13 @@ public class PincodeValidation {
 			System.out.println("Invalid pincode.Enter again");
 			pincode=scanner.nextLine();
 		}
+		System.out.println("Valid pincode");
+		String checkPincode = "A400088";
+		System.out.println("Pincode to be checked:"+checkPincode);
+		if(pincodeValidation(checkPincode))
+			System.out.println("Valid");
+		else
+			System.out.println("Invalid");
 
 	}
 
