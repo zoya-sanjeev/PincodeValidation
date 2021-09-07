@@ -24,6 +24,13 @@ public class PincodeValidation {
 			System.out.println("Valid");
 		else
 			System.out.println("Invalid");
+		
+		checkPincode = "400088B";
+		System.out.println("Pincode to be checked:"+checkPincode);
+		if(pincodeValidation(checkPincode))
+			System.out.println("Valid");
+		else
+			System.out.println("Invalid");
 
 	}
 
